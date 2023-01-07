@@ -13,9 +13,10 @@
 }
 .section-1{
     text-align: end;
+    margin-right: 230px;
 }
 .header-title{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     font-family: 'Rowdies', cursive;
     padding: 170px 3px 3px 180px;
@@ -61,9 +62,9 @@
     text-align: center;
     font-size: 50px;
     margin: 20px 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bakbak One', cursive;
 }
-.section-2{
+.section-3{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,15 +88,15 @@
     margin: auto;
     display: block;
 }
-.section-3{
-    background-image: url("images/watch.png");
-    background: linear-gradient(right,red,yellow);
+.section-4{ 
+    background: linear-gradient(to bottom right, red, yellow), url("images/watch.png"); 
     background-repeat: no-repeat;
     width: 70%;
-    height: 50vh;
+    height: 42vh;
     margin-left: 210px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-top: 70px;
+    background-blend-mode: soft-light;
 }
 .mindset{
     font-size: 40px;
@@ -103,6 +104,9 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     padding: 60px 50px 20px 50px;
+}
+.pos{
+    color: rgb(47, 0, 255);
 }
 .btn-2{
     padding: 16px 25px;
@@ -115,11 +119,37 @@
     border-radius: 7px;
     box-shadow: 3px 4px gray;
 }
-.section-4{
+.section-2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.about{
+    margin-right: 180px;
+}
+.about-title{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Bakbak One', cursive;
+    margin-bottom: 15px;
+}
+.about-desc{
+    font-size: 20px;
+    color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image{
+    width: 320px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 80px;
+    margin-top: -20px;
+}
+.section-5{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 40px;
-    margin-top: 60px;
+    margin-top: 120px;
     background-color: black;
     height: 70vh;
 }
@@ -174,4 +204,12 @@ input{
 .side{
     display: flex;
     flex-direction: column;
+}
+.check{
+    color: green;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.check, .fa-solid{
+    margin-right: 6px;
 }

@@ -20,14 +20,12 @@
     font-weight: bold;
     font-family: 'Rowdies', cursive;
     padding: 170px 3px 3px 180px;
-    white-space: pre-line;
 }
 .header-description{
     padding: 40px 3px 6px 150px;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
     color:darkblue;
-    white-space: pre-line;
 }
 .btn{
     padding: 13px 15px;
@@ -162,7 +160,6 @@
 }
 .footer-desc{
     color: white;
-    white-space: pre-line;
     padding-bottom: 30px;
 }
 .footer-desc-1{
